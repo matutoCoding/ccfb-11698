@@ -1,0 +1,23 @@
+{
+  "name": "shadowless-lamp-sim",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "手术无影灯配光与术野阴影仿真系统",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.180.0",
+    "typescript": "^5.7.0",
+    "vite": "^6.0.0",
+    "vitest": "^3.0.0"
+  }
+}
